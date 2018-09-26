@@ -1,14 +1,44 @@
 27/09/2018
-===================
+============================================================
 LPIC2 # NETWORKING
-========================
+============================================================
+
 "ss" command --> Print network connections.
               --> flag "-p" : Print program
               --> flag "-l" : Port Listening
               
 "mtr" command --> same "traceroute"
               --> -c 4 -r : counter
-              
+
+Previe install "nmap" for working "ncat"
+-----------------------------------------------
 "ncat" command --> open connection between client and server.
                 --> server : ncat + port
                 --> client : ncat -l -p PORT 
+                
+"nmap" command --> scan port, very important.
+
+"host" command -->  same "nslookup". View info from DNS server.
+
+"whois" command -->  Quien
+
+"curl" command --> download "index.html"
+
+"wget" command --> download all web side.
+
+============================================================
+LPIC2 # DHCP
+============================================================
+
+Config DHCP Client:
+File config   --> "/etc/systemd/network/eth1.network
+Comand config --> dhclient -v eth1
+
+config DHCP Server:
+1 - install dhcp
+2 - config file /etc/dhcp/dhcpd.conf
+
+
+
+
+
