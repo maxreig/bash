@@ -1,0 +1,14 @@
+27/09/2018
+===================
+LPIC2 # NETWORKING
+========================
+"ss" command --> Print network connections.
+              --> flag "-p" : Print program
+              --> flag "-l" : Port Listening
+              
+"mtr" command --> same "traceroute"
+              --> -c 4 -r : counter
+              
+"ncat" command --> open connection between client and server.
+                --> server : ncat + port
+                --> client : ncat -l -p PORT 
